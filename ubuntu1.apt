@@ -14,5 +14,5 @@ python-dev
 python-pip
 python-virtualenv
 rails
-ruby
+ruby-full
 vagrant
