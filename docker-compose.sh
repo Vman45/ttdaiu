@@ -1,5 +1,7 @@
 #!/bin/bash
 
-curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+base=https://github.com/docker/compose/releases/download/1.23.1
 
-chmod a+rx /usr/local/bin/docker-compose
+curl -L $base/docker-compose-$(uname -s)-$(uname -m) >/tmp/docker-compose
+
+install /tmp/docker-compose /usr/local/bin/docker-compose
