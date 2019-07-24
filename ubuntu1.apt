@@ -18,3 +18,5 @@ python-virtualenv
 rails
 ruby-full
 vagrant
+mysql-client
+postgresql-client
