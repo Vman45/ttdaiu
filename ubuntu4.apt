@@ -1,0 +1,5 @@
+build-essential
+default-jdk
+default-jre
+git
+gradle
